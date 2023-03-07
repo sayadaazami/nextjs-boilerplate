@@ -5,5 +5,9 @@
     "source.fixAll": true,
     "source.organizeImports": true
   },
-  "blueprint.templatesPath": ["./blueprint-templates"]
+  "blueprint.templatesPath": [
+    "./blueprint-templates"
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
